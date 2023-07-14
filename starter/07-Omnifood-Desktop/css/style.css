@@ -387,18 +387,18 @@
   padding: 9.6rem 0;
 }
 
-.princing-plan {
+.pricing-plan {
   border-radius: 11px;
   width: 75%;
 }
 
-.princing-plan--starter {
+.pricing-plan--starter {
   justify-self: end;
   border: 2px solid #fdf2e9;
   padding: 4.6rem;
 }
 
-.princing-plan--complete {
+.pricing-plan--complete {
   background-color: #fdf2e9;
   padding: 4.8rem;
   position: relative;
@@ -406,7 +406,7 @@
   overflow: hidden;
 }
 
-.princing-plan--complete:after {
+.pricing-plan--complete:after {
   content: "Best value";
   position: absolute;
   top: 6%;
@@ -648,6 +648,7 @@
 .footer-link:visited {
   text-decoration: none;
   font-size: 1.6rem;
+  line-height: 1.4;
   color: #767676;
 
   transition: all 0.3s;
